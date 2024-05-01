@@ -20,3 +20,25 @@ if __name__ == "__main__":
   print(numbers)
   print(scores)
   print(numbers.issubset(scores))
+
+  # Using subset operators
+
+  """
+  set_a <= set_b
+  """
+
+  numbers = {1, 2, 3, 4, 5}
+  scores = {1, 2, 3}
+  print(numbers)
+  print(scores)
+
+  print(scores <= numbers)
+  print(numbers <= numbers)
+
+  numbers = {1, 2, 3, 4, 5}
+  scores = {1, 2, 3}
+  print(numbers)
+  print(scores)
+
+  print(scores < numbers)
+  print(numbers < numbers)
